@@ -1,0 +1,53 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.material-icons {
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.cartIcon {
+  padding: 8px 0px 0px 0px;
+}
+.card {
+  width: 250px;
+  background-color: rgb(194, 225, 226);
+}
+.card .card-content {
+  color: black;
+  display: inline-block;
+}
+.card .card-content .price {
+  color: red;
+}
+.card .card-image .card-title {
+  color: rgb(104, 25, 87);
+  font-weight: 500;
+}
+.cart {
+  margin-top: 40px;
+}
+.collection .collection-item {
+  display: flex;
+}
+.collection-item.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f00;
+  display: block;
+  margin-bottom: 20px;
+}
+.collection .collection-item img {
+  width: 150px;
+  margin-right: 25px;
+  height: 300px !important;
+}
+.item-desc {
+  align-self: center;
+}
+.nav-wrapper {
+  background-color: #8d3c5b !important;
+  font-size: 14px;
+  font-weight: bold;
+}
